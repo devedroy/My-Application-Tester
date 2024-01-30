@@ -15,4 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "My Application Tester"
 include(":app")
+include(":QR-Barcode")
+project(":QR-Barcode").projectDir = File(rootDir, "QR-Barcode/app")
+
  
