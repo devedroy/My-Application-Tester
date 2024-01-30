@@ -1,0 +1,3 @@
+[submodule "QR-Barcode"]
+	path = QR-Barcode
+	url = https://github.com/devedroy/QR-Barcode.git
