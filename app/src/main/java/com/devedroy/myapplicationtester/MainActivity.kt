@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.devedroy.myapplicationtester.databinding.ActivityMainBinding
-import com.devedroy.qrbarcode.BarCodeScannerActivity
+import com.devedroy.qrbarcode.TriggerBarcodeActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openScanner() {
-        startActivity(Intent(this, BarCodeScannerActivity::class.java))
+        startActivity(Intent(this, TriggerBarcodeActivity::class.java))
     }
 
     override fun onRequestPermissionsResult(
